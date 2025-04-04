@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-   "homepage": "https://AntunesJoao.github.io/Portifolio_.git",
+   "homepage": "https://AntunesJoao.github.io/Portifolio_/",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
