@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 //paginas
 import Home from './routes/Home.jsx'
@@ -14,7 +14,7 @@ import Skill from './routes/Skill.jsx'
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element:<App/>,
     children:[
