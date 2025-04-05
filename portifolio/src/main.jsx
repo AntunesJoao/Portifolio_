@@ -41,7 +41,7 @@ const router = createHashRouter([
 
     ],
   },{
-    basename: "/portifolio"
+    basename: "/Portifolio_"
   }
 ])
 
@@ -50,6 +50,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} basename="portifolio"/>
+    <RouterProvider router={router}/>
   </StrictMode>,
 )
