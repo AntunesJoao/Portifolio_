@@ -1,7 +1,12 @@
 .about-control{
     width: 70%;
     margin: 6rem auto;
-    font-size: 1.6rem
+    font-size: 1.6rem;
+    background-color:  #0e1217;
+    box-shadow: -4px -4px 3px #ffffff20,
+                3px   3px  3px #0000004e;
+    padding: 1rem;   
+    border-radius: 6px;         
 }
 
 @media (max-width: 768px) {   
